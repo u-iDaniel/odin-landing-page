@@ -29,6 +29,7 @@ body {
 .right-links {
     display: flex;
     gap: 24px;
+    align-items: center;
 }
 
 ul {
