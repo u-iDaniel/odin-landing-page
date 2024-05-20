@@ -116,6 +116,33 @@ button.signup {
     text-align: center;
 }
 
+.quote-block {
+    background-color: var(--light-gray);
+    padding: 200px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--dark);
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark);
+    align-self: flex-end;
+    margin-right: 30px;
+}
+
 ul {
     margin: 0;
     padding: 0;
