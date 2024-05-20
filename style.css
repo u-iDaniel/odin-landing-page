@@ -6,6 +6,10 @@
     --media-width: 150px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: "Roboto", sans-serif;
 }
