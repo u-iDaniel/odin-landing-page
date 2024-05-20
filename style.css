@@ -2,6 +2,7 @@
     --dark: #1F2937;
     --blue: #3882F6;
     --light-gray: #E5E7EB;
+    --white: #F9FAF8;
 }
 
 html {
@@ -13,11 +14,17 @@ body {
     padding: 0;
 }
 
-.header {
+.header-hero { 
+    display: flex;
+    flex-direction: column;
     background-color: var(--dark);
+    padding: 16px 160px 100px;
+    gap: 64px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
 }
 
 .logo {
@@ -30,6 +37,41 @@ body {
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+.hero {
+    display: flex;
+    gap: 32px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--white);
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: var(--light-gray);
+    margin: 12px 0;
+}
+
+button.signup {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.image-placeholder {
+    display: flex;
+    background-color: gray;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
 }
 
 ul {
